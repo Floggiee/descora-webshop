@@ -1,12 +1,12 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -14,23 +14,19 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "price": {
           "type": "price",
-          "settings": {}
-        },
-        "sku_MUV7GB": {
-          "type": "sku",
           "settings": {
-            "text_style": "uppercase"
           }
         },
         "variant_picker": {
@@ -40,9 +36,16 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_7Xg7jz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script>console.log(product);<\/script>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -56,7 +59,7 @@
           "settings": {
             "heading": "Mechanism",
             "icon": "star",
-            "content": "<ul><li>All front and back accessories are easily detachable and swappable</li><li>Features our own quick lock mechanism</li><li>Comes with all accessories, but you can swap in different ones</li><li>Headphone stand has one attachment point on either side, set comes with adapter for the 2 front mounted accessories</li></ul>",
+            "content": "<ul><li>All front and back accessories are easily detachable and swappable<\/li><li>Features our own quick lock mechanism<\/li><li>Comes with all accessories, but you can swap in different ones<\/li><li>Headphone stand has one attachment point on either side, set comes with adapter for the 2 front mounted accessories<\/li><\/ul>",
             "page": ""
           }
         },
@@ -65,7 +68,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>Approximately 30cm x 22cm x 12cm</p>",
+            "content": "<p>Approximately 30cm x 22cm x 12cm<\/p>",
             "page": ""
           }
         },
@@ -74,7 +77,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leaf",
-            "content": "<p>PLA plastic is used exclusively for the production of our products.</p><p>PLA is plant-based and renewable polymer commonly used in 3d-printing applications.</p>",
+            "content": "<p>PLA plastic is used exclusively for the production of our products.<\/p><p>PLA is plant-based and renewable polymer commonly used in 3d-printing applications.<\/p>",
             "page": ""
           }
         },
@@ -83,16 +86,16 @@
           "settings": {
             "heading": "Manufacturing",
             "icon": "heart",
-            "content": "<p>These products are fully self-made in the heart of Europe using 3D-printing technology.</p><p>As a result of the 3D-printing process, some products may have minor printing imperfections or manufacturing marks.</p>",
+            "content": "<p>These products are fully self-made in the heart of Europe using 3D-printing technology.<\/p><p>As a result of the 3D-printing process, some products may have minor printing imperfections or manufacturing marks.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_nYC6jq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Additional information",
+            "heading": "Manufacturer",
             "icon": "question_mark",
-            "content": "<p>Manufactured by us:</p><p>{{ product.vendor }}</p><p></p><p>Choking hazard! Not suitable for toddlers and small children!</p>",
+            "content": "<p>{{ product.vendor }}<\/p>",
             "page": ""
           }
         },
@@ -104,15 +107,16 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "caption",
         "price",
-        "sku_MUV7GB",
         "variant_picker",
+        "custom_liquid_7Xg7jz",
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_NqpYiQ",
@@ -125,7 +129,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-d3c596be-ed6f-4eaa-9ce9-304592ead2b1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -156,39 +160,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "featured_collection_dMcAqL": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Related items",
-        "heading_size": "h2",
-        "description": "<p>Compatible accessories</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "accessories",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "featured_collection_dMcAqL"
+    "related-products"
   ]
 }

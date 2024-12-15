@@ -13,18 +13,5 @@
     "market": "de"
   },
   "sections": {
-    "announcement-bar": {
-      "settings": {
-      },
-      "blocks": {
-      },
-      "block_order": [
-
-      ]
-    }
-  },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+  }
 }

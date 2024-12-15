@@ -1,12 +1,21 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 170,
     "favicon": "{{ shop.brand.square_logo }}",
-    "type_header_font": "assistant_n7",
+    "type_header_font": "antique_olive_n7",
     "heading_scale": 100,
-    "type_body_font": "poppins_n5",
-    "body_scale": 100,
+    "type_body_font": "dosis_n6",
+    "body_scale": 105,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
@@ -15,7 +24,7 @@
     "animations_hover_elements": "3d-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 30,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -37,7 +46,7 @@
     "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-6b778a28-3eb6-42f7-a483-f3decbad892b",
+    "card_color_scheme": "scheme-8f92371d-7bd6-4c3a-8341-2ea292c80f74",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 20,
@@ -45,10 +54,10 @@
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
-    "collection_card_style": "standard",
+    "collection_card_style": "card",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
-    "collection_card_color_scheme": "scheme-2",
+    "collection_card_color_scheme": "scheme-8f92371d-7bd6-4c3a-8341-2ea292c80f74",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
     "collection_card_corner_radius": 20,
@@ -117,6 +126,10 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "optionName": "",
+    "swatchType": "color",
+    "swatchColors": "light pink - white:#F9A2A8#FFF8F3\nwhite - light pink:#FFF8F3#F9A2A8\nlight pink - pink:#F9A2A8#EC426E\nblack - light pink:#0D0D0D#F9A2A8\npurple - white:#FFF8F3#BF97D5\nblack - purple:#0D0D0D#BF97D5",
+    "swatchStyle": "round",
     "checkout_body_background_color": "#fbf9f9",
     "checkout_sidebar_background_color": "#fbf9f9",
     "sections": {
@@ -308,6 +321,17 @@
           "button": "#554055",
           "button_label": "#fbf9f9",
           "secondary_button_label": "#554055",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-8f92371d-7bd6-4c3a-8341-2ea292c80f74": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(116deg, rgba(211, 144, 158, 1), rgba(202, 116, 137, 1), rgba(211, 127, 163, 1) 22%, rgba(148, 125, 200, 1) 100%)",
+          "text": "#ffffff",
+          "button": "{{ shop.brand.colors.secondary[0].background }}",
+          "button_label": "#fbf9f9",
+          "secondary_button_label": "{{ shop.brand.colors.secondary[0].background }}",
           "shadow": "#121212"
         }
       }
