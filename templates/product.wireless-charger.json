@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Additional information",
             "icon": "question_mark",
-            "content": "<p>Manufactured by us:</p><p>{{ product.vendor }}</p><p></p><p>Choking hazard! Not suitable for toddlers and small children!</p>",
+            "content": "<p>Manufactured by us:</p><p>{{ product.vendor }}</p><p>Complies with all applicable EU-regulations (CE as well as WEEE)</p><p></p><p>Please review the included instruction and safety information thoroughly before use!</p>",
             "page": ""
           }
         },
