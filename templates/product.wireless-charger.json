@@ -54,9 +54,9 @@
         "collapsible_tab_NqpYiQ": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Mechanism",
+            "heading": "Features",
             "icon": "star",
-            "content": "<ul><li>All front and back accessories are easily detachable and swappable</li><li>Features our own quick lock mechanism</li><li>Comes with all accessories, but you can swap in different ones</li><li>Headphone stand has one attachment point on either side</li></ul>",
+            "content": "<ul><li>Supports all Qi-compatible mobile devices</li><li>Supports standard and quick-charge</li></ul>",
             "page": ""
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>Approximately 30cm x 22cm x 12cm</p>",
+            "content": "<p>12cm x 12cm x 4cm</p>",
             "page": ""
           }
         },
