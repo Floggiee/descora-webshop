@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Technical specifications",
             "icon": "clipboard",
-            "content": "<ul><li>Standard: Qi-Standard</li><li>Port: USB Type C</li><li>Input (standard): 5V DC, 2A</li><li>Input (quick charge): 9V DC, 2A</li><li>Power adapter (NOT INCLUDED): required specs vary depending on the needs of the device being charged</li></ul>",
+            "content": "<ul><li>Standard: Qi-Standard</li><li>Port: USB Type C</li><li>Input (standard): 5V DC, 2A</li><li>Input (quick charge): 9V DC, 2A</li><li>Charging distance: &lt;= 8mm</li><li>Power adapter (NOT INCLUDED): required specs vary depending on the needs of the device being charged</li></ul>",
             "page": ""
           }
         },
