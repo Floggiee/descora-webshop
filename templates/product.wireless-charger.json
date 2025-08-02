@@ -60,21 +60,21 @@
             "page": ""
           }
         },
+        "collapsible_tab_y9eEYM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Box contents",
+            "icon": "box",
+            "content": "<ul><li>Cookie wireless charger</li><li>USB-A to USB Type C cable</li><li>Instructions</li></ul>",
+            "page": ""
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
             "content": "<p>12cm x 12cm x 4cm</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_y9eEYM": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leaf",
-            "content": "<p>PLA plastic is used exclusively for the production of our products.</p><p>PLA is plant-based and renewable polymer commonly used in 3d-printing applications.</p>",
             "page": ""
           }
         },
@@ -116,8 +116,8 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_NqpYiQ",
-        "collapsible-row-2",
         "collapsible_tab_y9eEYM",
+        "collapsible-row-2",
         "collapsible-row-0",
         "collapsible_tab_nYC6jq",
         "share",
