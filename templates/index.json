@@ -15,6 +15,24 @@
         "slide_gGHpDw": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/DSC07214.jpg",
+            "heading": "Wireless Chargers",
+            "heading_size": "h1",
+            "subheading": "NEW: Cookie Wireless Charger",
+            "button_label": "Browse",
+            "link": "shopify://collections/wireless-chargers",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-8f92371d-7bd6-4c3a-8341-2ea292c80f74",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_KdbkTE": {
+          "type": "slide",
+          "settings": {
             "image": "shopify://shop_images/DSC05001_4.jpg",
             "heading": "Headphone Stands",
             "heading_size": "h1",
@@ -51,6 +69,7 @@
       },
       "block_order": [
         "slide_gGHpDw",
+        "slide_KdbkTE",
         "slide_BFC9X7"
       ],
       "settings": {
