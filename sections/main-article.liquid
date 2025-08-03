@@ -368,7 +368,8 @@
 }
 {% endschema %}
 
-// add this before event code to all pages where PII data postback is expected and appropriate 
+<script>
+  // add this before event code to all pages where PII data postback is expected and appropriate 
 ttq.identify({
 	"email": "<hashed_email_address>", // string. The email of the customer if available. It must be hashed with SHA-256 on the client side.
 	"phone_number": "<hashed_phone_number>", // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
@@ -488,3 +489,4 @@ ttq.track('Purchase', {
 	"value": "<content_value>", // number. Value of the order or items sold. Example: 100.
 	"currency": "<content_currency>" // string. The 4217 currency code. Example: "USD".
 });
+</script>
