@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Additional information",
             "icon": "question_mark",
-            "content": "<p>Manufactured by us:</p><p>{{ product.vendor }}</p><p>Complies with all applicable EU-regulations (CE as well as WEEE)</p><p></p><p>Please review the included instruction and safety information thoroughly before use!</p>",
+            "content": "<p>Manufactured by us:</p><p>{{ product.vendor }}</p><p>Complies with all applicable EU-regulations (CE as well as WEEE)</p><p>Disposal Information:</p><p>The symbol of the crossed-out wheeled bin on the product, its packaging, or accompanying documents indicates that this product <strong>must be disposed of separately from household waste</strong> at the end of its life.</p><p>Please note that you are responsible for the proper disposal of old electrical and electronic equipment. Return the device for disposal to an official collection point for electronic waste or to the retailer from whom you purchased the product. The separate collection and recycling of your old appliances helps to conserve natural resources and ensures they're recycled in a way that protects human health and the environment.</p><p></p><p>Please review the included instruction and safety information thoroughly before use!</p>",
             "page": ""
           }
         },
