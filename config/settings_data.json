@@ -315,9 +315,9 @@
       },
       "scheme-8f92371d-7bd6-4c3a-8341-2ea292c80f74": {
         "settings": {
-          "background": "#ffffff",
-          "background_gradient": "linear-gradient(116deg, rgba(211, 144, 158, 1), rgba(202, 116, 137, 1), rgba(211, 127, 163, 1) 22%, rgba(148, 125, 200, 1) 100%)",
-          "text": "#ffffff",
+          "background": "{{ shop.brand.colors.secondary[0].background }}",
+          "background_gradient": "linear-gradient(116deg, rgba(211, 144, 158, 1), rgba(202, 116, 137, 1) 11%, rgba(211, 127, 163, 1) 22%, rgba(148, 125, 200, 1) 100%)",
+          "text": "#fbf9f9",
           "button": "{{ shop.brand.colors.secondary[0].background }}",
           "button_label": "#fbf9f9",
           "secondary_button_label": "{{ shop.brand.colors.secondary[0].background }}",
