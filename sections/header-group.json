@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_EFAXkJ": {
+          "type": "announcement",
+          "settings": {
+            "text": "ON VACATION - orders start shipping May 11th",
+            "link": ""
+          }
+        },
         "announcement_LHP4tT": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "announcement_EFAXkJ",
         "announcement_LHP4tT",
         "announcement_FpNgyK"
       ],
