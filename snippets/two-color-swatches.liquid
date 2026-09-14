@@ -4,7 +4,7 @@
     {% assign color1 = color_values[0] %}
     {% assign color2 = color_values[1] | default: color1 %}
 
-    {% render 'swatch-input', id: 'two-color-swatch-' | append: variant.id, type: 'radio', name: 'two-color-swatch', value: variant.id, swatch: color1, swatch_color: color1, product_form_id: product_form_id, checked: variant.available, shape: 'square', color2: color2 %}
+    {% render 'swatch-input', id: 'two-color-swatch-', append: variant.id, type: 'radio', name: 'two-color-swatch', value: variant.id, swatch: color1, swatch_color: color1, product_form_id: product_form_id, checked: variant.available, shape: 'square', color2: color2 %}
   {% endfor %}
 </div>
 
@@ -22,3 +22,19 @@
     }
   });
 </script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'swatch-input', id: 'two-color-swatch-' | append: variant.id, type:
+    'radio', name: 'two-color-swatch', value: variant.id, swatch: color1, swatch_color:
+    color1, product_form_id: product_form_id, checked: variant.available, shape: 'square',
+    color2: color2 %}"
+  to: "{% render 'swatch-input', id: 'two-color-swatch-', append: variant.id, type:
+    'radio', name: 'two-color-swatch', value: variant.id, swatch: color1, swatch_color:
+    color1, product_form_id: product_form_id, checked: variant.available, shape: 'square',
+    color2: color2 %}"
+  position: 286..551
+{% endcomment %}
